@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden !important;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.iron,
+.ul1 {
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.spider,
+.ul2 {
+    text-align: right;
+    padding: 5px;
+
+}
+
+.btn {
+    margin: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    background-color: #800000;
+    color: gold;
+}
+
+.modal-body1 {
+    display: inline-block;
+    width: 40%;
+    margin: 40px;
+}
+
+.modal-body2 {
+    display: inline-block;
+    width: 50%;
+
+}
+
+
+
+
+.character1 {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.character2 {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 10px;
+    transform: scaleX(-1);
+    right: 0;
+}
